@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Cocktails bar</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+
+    <!--first page-->
+    <string name="first_page_hello">Welcome to the cocktails bar,\nWhat cocktail would you like to learn to make today?</string>
+    <string name="surprise_me">Surprise me with a cocktail</string>
+    <string name="all_menu">All the menu</string>
+    <string name="your_favorites">Your favorites</string>
+
+    <!--random page-->
+    <string name="random_page">Enjoy \nDo you like it ?</string>
+
+    <!--list page-->
+    <string name="list_page">I have %s cocktails available for you</string>
+
+    <!--favorite page-->
+    <string name="favorite_empty">To add cocktails to your favorites list select the heart icon by each cocktail</string>
+    <string name="favorite_not_empty">You added %s cocktails to your favorites list</string>
+
+    <!--detail page-->
+    <string name="you_need">You need:\n</string>
+    <string name="lets_start">Let’s start:\n</string>
+    <string name="cocktail_delete">The cocktail is deleted from your favorites list</string>
+    <string name="cocktail_add">The cocktail is added to your favorites list</string>
+
+</resources>

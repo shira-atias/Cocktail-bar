@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="searchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:tint">@color/teal_200</item>
+        <item name="android:textColorHint">@color/white</item>
+    </style>
+
+</resources>
+

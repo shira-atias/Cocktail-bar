@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.shira.cocktailsbar.ui.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_cocktailListFragment"
+            app:destination="@id/cocktailListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cocktailListFragment"
+        android:name="com.shira.cocktailsbar.ui.CocktailListFragment"
+        android:label="fragment_cocktail_list"
+        tools:layout="@layout/fragment_cocktail_list" >
+        <action
+            android:id="@+id/action_cocktailListFragment_to_cocktailDetailsFragment"
+            app:destination="@id/cocktailDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cocktailDetailsFragment"
+        android:name="com.shira.cocktailsbar.ui.CocktailDetailsFragment"
+        android:label="fragment_cocktail_details"
+        tools:layout="@layout/fragment_cocktail_details" />
+</navigation>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "134040316274",
+    "project_id": "cocktails-bar-8745f",
+    "storage_bucket": "cocktails-bar-8745f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134040316274:android:0c8d6eb2b3b9e8c96155eb",
+        "android_client_info": {
+          "package_name": "com.shira.cocktailsbar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134040316274-jg41b9kko9g7cq4ftki0kgnjb7l0s4da.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjRm8Qk7mw6j8fGTA19GBoShP1z5pyEz4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134040316274-jg41b9kko9g7cq4ftki0kgnjb7l0s4da.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
